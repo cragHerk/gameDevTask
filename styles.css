@@ -117,5 +117,17 @@ body {
     margin-top: 5vh;
     margin-right: -5vw;
     height: 400px;
+    background-color: #c83737;
+  }
+}
+@media screen and (min-width: 900px) {
+  .group {
+    flex-direction: row;
+  }
+  .second {
+    margin-left: 15vw;
+  }
+  .third {
+    background-color: white;
   }
 }
